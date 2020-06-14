@@ -1,0 +1,141 @@
+body {
+  background-color: #273237;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d6002b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d9004b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d3006c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c4008c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.main-layout__container {
+  min-height: 100vh;
+}
+.main-layout__container > .ant-layout.ant-layout-has-sider {
+  display: flex;
+  justify-content: center;
+}
+
+.main-layout__header {
+  height: 90px;
+  background-color: transparent;
+  padding-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-layout__logo {
+  height: 70%;
+}
+.main-layout__github {
+  font-size: 35px;
+  color: white;
+}
+
+.main-layout__content {
+  padding: 1em 0em 1em 1em;
+  overflow-x: inherit !important;
+  max-width: 1100px;
+}
+
+.main-layout__sider {
+  padding: 1em;
+}
+
+.main-layout__content,
+.main-layout__sider {
+  background-color: transparent;
+}
+
+.ant-layout {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.58) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.main-layout__container .ant-card {
+  border-radius: 5px;
+  box-shadow: -1px 4px 30px rgba(87, 87, 87, 0.11);
+}
+
+.fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.fadeInDelay0 {
+  opacity: 0;
+  animation: fadeIn 0.2s ease-in-out forwards;
+}
+
+.fadeInDelay {
+  opacity: 0;
+  animation: fadeIn 0.3s ease-in-out 0.5s forwards;
+}
+.fadeInDelayShort {
+  animation: fadeInTranslate 0.3s ease;
+}
+
+.fadeInDelay2 {
+  opacity: 0;
+  animation: fadeIn 0.3s ease-in-out 0.7s forwards;
+}
+.fadeInDelay3 {
+  opacity: 0;
+  animation: fadeIn 0.3s ease-in-out 0.9s forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInTranslate {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
