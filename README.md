@@ -1,6 +1,6 @@
 
 # Super-Simple-Stock-Market
-JP Morgan Assignment - Super Simple Stock Market Excercise
+Super Simple Stock Market Excercise
 
 ## How to run
 
@@ -12,4 +12,3 @@ JP Morgan Assignment - Super Simple Stock Market Excercise
 
 - Theres is also a demo link to run the app right now in the browser:
 
-[https://matatablack.github.io/super-simple-stock-market/](https://matatablack.github.io/super-simple-stock-market/)
