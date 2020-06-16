@@ -24,15 +24,11 @@ export default withActions(
         }
         title={
           <span className="market-info__title">
-            <Icon type="stock" theme="outlined" /> &nbsp; Market information
+         Stock Data
           </span>
         }
       >
-        <p>
-          The Global Beverage Corporation Exchange is the leading stock market
-          trading in drinks companies. To start operating please select a
-          stock...
-        </p>
+     
         <Tooltip
           placement="right"
           title="You have to choose a stock first!"

@@ -66,7 +66,7 @@ export default class TradeList extends Component {
           rowClassName={(record, index) => "fadeInDelayShort"}
         />
         <span className="trade-list__vwsp--clarification">
-          *Volume Weighted Stock Price is based on trades made on past 5 minutes
+          *Volume Weighted Stock Price is based on trades made on past 15 minutes
         </span>
       </Card>
     );

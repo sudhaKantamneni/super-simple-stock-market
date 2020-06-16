@@ -46,8 +46,8 @@ export default function DataDisplay({ dividendYield, peRatio, total }) {
       <Row type="flex" justify="center" className="fadeInDelay3">
         <Col span={20}>
           <Row type="flex" justify="space-between">
-            <Col span={6}>Total:</Col>
-            <Col span={18}>
+            <Col span={14}>Traded Price:</Col>
+            <Col span={8}>
               <Row type="flex" justify="end">
                 <b>${total.toFixed(2)}</b>
               </Row>

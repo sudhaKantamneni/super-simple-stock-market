@@ -1,5 +1,4 @@
 import React from "react";
-import { Icon } from "antd";
 
 const style = {
   color: "white",
@@ -14,8 +13,7 @@ const style = {
 export default ({ who }) => {
   return (
     <div style={style} className="fadeInDelay3">
-      <Icon type="thunderbolt" theme="twoTone" /> &nbsp; by &nbsp;{" "}
-      <b> {who} </b> &nbsp; <Icon type="thunderbolt" theme="twoTone" /> <br />
+
     </div>
   );
 };
